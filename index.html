@@ -1,13 +1,62 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя простая страница</title>
+    <title>Варіант 2</title>
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это моя первая веб-страница на HTML.</p>
-    <a href="https://example.com">Перейти на Example.com</a>
+    <!-- Оформлений текст -->
+    <h2>Хімічна реакція ортофосфорної кислоти:</h2>
+    <p>Хімічна реакція ортофосфорної кислоти: P<sub>2</sub>O<sub>5</sub> + 3H<sub>2</sub>O → 2H<sub>3</sub>PO<sub>4</sub></p>
+
+    <!-- Список -->
+    <h3>Розподіл груп за спеціальностями:</h3>
+    <ul>
+        <li>СП</li>
+        <li>КСМ</li>
+        <li>Траєкторії групи (перша, друга, ...)</li>
+    </ul>
+
+    <!-- Таблиця -->
+    <h3>Таблиця прогнозу погоди</h3>
+    <table border="1">
+        <tr>
+            <th>Дата</th>
+            <th>Місто</th>
+            <th>Температура</th>
+        </tr>
+        <tr>
+            <td>24.10.2024</td>
+            <td>Київ</td>
+            <td>15°C</td>
+        </tr>
+        <tr>
+            <td>25.10.2024</td>
+            <td>Львів</td>
+            <td>12°C</td>
+        </tr>
+        <tr>
+            <td>26.10.2024</td>
+            <td>Одеса</td>
+            <td>18°C</td>
+        </tr>
+    </table>
+
+    <!-- Форма з керуючими елементами -->
+    <h3>Форма для пошуку</h3>
+    <form action="/search" method="get">
+        <label for="query">Введіть запит:</label>
+        <input type="text" id="query" name="query">
+        <button type="submit">Шукати</button>
+    </form>
+
+    <!-- Посилання та зображення -->
+    <h3>Посилання та зображення</h3>
+    <p>
+        <a href="#weather">Перейти до таблиці прогнозу погоди</a><br>
+        <a href="https://www.example.com" target="_blank">Перейти на іншу сторінку</a>
+    </p>
+    <img src="https://via.placeholder.com/200" alt="Placeholder image">
 </body>
 </html>
